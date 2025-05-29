@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Productos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <img src="https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Banner superior" class="banner">
+        
+        <div class="form-container">
+            <h2>Gestión de Productos</h2>
+            <form id="productoForm">
+                <input type="hidden" id="productoId">
+                <div class="input-group">
+                    <input type="text" id="nombre" placeholder="Nombre del producto" required>
+                </div>
+                <div class="input-group">
+                    <input type="number" id="precio" placeholder="Precio" step="0.01" required>
+                </div>
+                <div class="input-group">
+                    <input type="number" id="cantidad" placeholder="Cantidad" required>
+                </div>
+                <button type="submit" class="btn-primary">Guardar</button>
+            </form>
+        </div>
+
+        <div class="table-container">
+            <table id="productosTable">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <img src="https://images.pexels.com/photos/135620/pexels-photo-135620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Banner inferior" class="banner">
+    </div>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
