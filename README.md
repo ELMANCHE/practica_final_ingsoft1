@@ -1,4 +1,4 @@
-# 🛍️ Sistema de Gestión de Productos
+#  Sistema de Gestión de Productos
 
 ![Estado del Proyecto](https://img.shields.io/badge/estado-en%20desarrollo-brightgreen)
 ![Licencia](https://img.shields.io/badge/licencia-MIT-blue)
