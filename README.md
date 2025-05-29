@@ -74,8 +74,8 @@ practica_final_ingsoft1/
 
 ## 👨‍💻 Autor
 **Elias Efrain Manchego Navarro**
-- GitHub: [@TuUsuarioGitHub](https://github.com/ELMANCHE)
-- Email: [tu.email@dominio.com](mailto:emanchego@ulasalle.edu.pe)
+- GitHub: [https://github.com/ELMANCHE](https://github.com/ELMANCHE)
+- Email: [emanchego@ulasalle.edu.pe](mailto:emanchego@ulasalle.edu.pe)
 
 ## 📄 Licencia
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles
