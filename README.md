@@ -4,17 +4,17 @@
 ![Licencia](https://img.shields.io/badge/licencia-MIT-blue)
 ![Version](https://img.shields.io/badge/version-1.0.0-orange)
 
-## 📋 Descripción
+##  Descripción
 Sistema web para la gestión de productos implementado con una arquitectura por capas, utilizando Flask como backend y SQLite como base de datos. Incluye una interfaz moderna con diseño neumórfico y operaciones CRUD completas.
 
-## ✨ Características
+##  Características
 - 🎨 Interfaz moderna con diseño neumórfico
 - 💾 Persistencia de datos con SQLite
 - 🔄 Operaciones CRUD completas
 - 📱 Diseño responsive
 - ⚡ Validación en tiempo real
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 - **Frontend:**
   - HTML5
   - CSS3 (Diseño Neumórfico)
@@ -25,7 +25,7 @@ Sistema web para la gestión de productos implementado con una arquitectura por 
 - **Base de Datos:**
   - SQLite3
 
-## 📦 Instalación
+##  Instalación
 
 1. **Clonar el repositorio**
 ```bash
@@ -49,11 +49,11 @@ pip install flask
 python3 backend.py
 ```
 
-## 📸 Capturas de Pantalla
+##  Capturas de Pantalla
 
 ![Interfaz Principal](https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 ```
 practica_final_ingsoft1/
 ├── backend.py          # Servidor Flask y lógica de negocio
@@ -66,24 +66,22 @@ practica_final_ingsoft1/
 └── README.md
 ```
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 - **Crear productos:** Añadir nuevos productos con nombre, precio y cantidad
 - **Leer productos:** Visualizar lista completa de productos
 - **Actualizar productos:** Modificar información existente
 - **Eliminar productos:** Remover productos del inventario
 
-## 👨‍💻 Autor
+##  Autor
 **Elias Efrain Manchego Navarro**
 - GitHub: [https://github.com/ELMANCHE](https://github.com/ELMANCHE)
 - Email: [emanchego@ulasalle.edu.pe](mailto:emanchego@ulasalle.edu.pe)
 
-## 📄 Licencia
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles
+##  Licencia
+Este proyecto está bajo la Licencia MIT 
 
-## 🌟 Agradecimientos
+##  Agradecimientos
 - A la Universidad por la oportunidad de desarrollo
-- A los profesores por su guía
+- Al profesor por su guía
 - A los compañeros por su apoyo
 
----
-⭐️ Si este proyecto te fue útil, considera darle una estrella en GitHub
